@@ -1,0 +1,8 @@
+#N canvas 848 469 757 522 24;
+#X obj 74 53 netreceive -u -b 8000;
+#X obj 78 108 oscparse;
+#X obj 91 260 print drum;
+#X obj 272 132 unpack s f;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 3 1 2 0;
